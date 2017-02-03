@@ -1,6 +1,8 @@
 import random
 def generate_list():
-    alist = [x for x in range(random.randint(-10, 10))]
+    y=random.randint(-1000, 0)
+    alist = [y for x in range(random.randint(1, 10))]
+    assert (alist<0)
     return alist
 
 def printIt():
@@ -14,6 +16,6 @@ if __name__ == '__main__':
     main()
     
     
-
     
     
+   
